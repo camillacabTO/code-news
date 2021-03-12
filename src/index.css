@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  background-color: #37474f;
+  color: #366275;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #cc7f2a;
+}
+
+div#search-btn-div {
+  margin: 20px 0;
+}
+
+div#main-div {
+  padding: 1rem 0;
+}
+
+a#story-title {
+  font-weight: bold;
+  color: #366275 !important;
+  font-size: 1.5rem;
+  transition: all 0.25s ease-out;
+}
+
+a#story-title:hover {
+  color: #cc7f2a !important;
+}
+
+p#story-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a#more-btn {
+  margin: 25px auto !important;
+  display: block;
+}
+
+ul.collection {
+  background-color: #bdd0d9 !important;
+}
+li.collection-item {
+  padding: 1.2rem 2.5rem 0 !important;
+  background-color: #bdd0d9 !important;
+}
+
+.input-field label,
+.dropdown-content.select-dropdown > li > span,
+input.select-dropdown.dropdown-trigger {
+  color: #cc7f2a !important;
+}
+
+input#searchStories:focus,
+input.select-dropdown.dropdown-trigger:focus {
+  border-bottom: 1px solid #cc7f2a !important;
+  box-shadow: 0 1px 0 0 #cc7f2a !important;
+}
+
+/* text input no focus */
+.input-field input[type]:not([readonly]),
+.input-field input[type]:focus:not([readonly]) {
+  color: #bdd0d9;
+}
+
+button.btn.btn-sm,
+i.material-icons.more {
+  background-color: #cc7f2a;
+  transition: all 0.25s ease-out;
+}
+
+i#delete-btn {
+  color: #cc7f2a !important;
+}
+
+button.btn.btn-sm:hover,
+i.material-icons.more:hover,
+i#delete-btn:hover {
+  opacity: 0.8 !important;
+}
+
+input#searchStories:focus {
+  background-color: #37474f;
+}
+
+hr {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 420px) {
+  p#story-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+footer.footer-copyright {
+  margin-top: auto !important;
+  height: 60px !important;
+  display: flex;
+  align-items: center;
+  background-color: #366275;
+  color: #bdd0d9 !important;
+}
+
+/* FIX AUTO-FILL */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #37474f inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: #bdd0d9 !important;
+}
