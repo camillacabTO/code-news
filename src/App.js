@@ -91,11 +91,11 @@ function App() {
               id='more-btn'
             >
               <i class='material-icons more'>expand_more</i>
-            </a>
+            </a>{' '}
+            <Footer />
           </>
         )}
       </div>
-      <Footer />
     </>
   )
 }

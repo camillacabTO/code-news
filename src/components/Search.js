@@ -23,6 +23,7 @@ const Search = ({
           ref={inputRef}
           type={type}
           value={searchTerm}
+          autoComplete='off'
           onChange={e => handleSearch(e.target.value)}
           id={id}
           autoFocus={isFocused}

@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -114,13 +115,8 @@ footer.footer-copyright {
   color: #bdd0d9 !important;
 }
 
-/* FIX AUTO-FILL */
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px #37474f inset !important;
-}
-input:-webkit-autofill {
-  -webkit-text-fill-color: #bdd0d9 !important;
+#footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
