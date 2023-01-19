@@ -1,11 +1,11 @@
-import React from 'react'
-import moment from 'moment'
+import React from 'react';
+import moment from 'moment';
 
 export const Story = ({ story, removeStory }) => {
   return (
     <div>
       <div>
-        <a id='story-title' href={story.url}>
+        <a id='story-title' href={story.url} target='_blank' rel='noreferrer'>
           {story.title}
         </a>
         <a
@@ -25,5 +25,5 @@ export const Story = ({ story, removeStory }) => {
       </p>
       {/* // <button onClick={() => removeStory(story.objectID)}>Delete</button> */}
     </div>
-  )
-}
+  );
+};
