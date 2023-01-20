@@ -1,3 +1,3 @@
 # Code News
 
-https://code-news.herokuapp.com/
+https://code-news.netlify.app/
