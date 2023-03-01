@@ -2,6 +2,9 @@
 
 body {
   background-color: #37474f;
+  background-image: url('./assets/subtle-prism.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
   color: #366275;
   display: flex;
   min-height: 100vh;
@@ -92,7 +95,7 @@ i#delete-btn:hover {
 }
 
 input#searchStories:focus {
-  background-color: #37474f;
+  background-color: transparent;
 }
 
 hr {
